@@ -1,0 +1,10 @@
+body{
+   border-image-slice: inherit;
+}
+
+.title{
+    font-size: 80px;
+    color: aqua;
+
+}
+
