@@ -1,5 +1,8 @@
-body{
-   border-image-slice: inherit;
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHZVN5khB6PQnsZbZ6Mw8soWgk8K3TEk6C3LYFO2n_Q&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .title{
