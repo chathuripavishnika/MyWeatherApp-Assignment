@@ -15,3 +15,19 @@ body {
     color: azure;
 }
 
+.card-body{
+    background-color:darkblue ;
+}
+
+.btn-outline{
+    font-size: 20px;
+    color: beige;
+    background-color: cyan;
+}
+
+.d-flex{
+    font-size: 20px;
+    color: azure;
+   
+}
+
