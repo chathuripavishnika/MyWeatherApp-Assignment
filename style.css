@@ -19,38 +19,40 @@ body {
     background-color:cornflowerblue ;
 }
 
-.navbar{
-   display: ;
-   justify-content: space-between;
-   align-items: center;
-   background-color: blue;
-   padding: 5px 15px;
-}
-
-.search-box{
-    display: flex;
-    gap: 30px;
-}
-
-.search-box input {
-    width: 750px;
-    padding: 12px;
-    border: none;
-    border-radius: 18px;
-    outline: none;
-}
-
-.search-box button{
+.card{
     
-    padding: 10px 15px;
-    border: none;
-    border-radius: 30%;
+    border: 2px solid black;
+    padding: 15px;
+    
+}
+
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+    width: 60%;
+    height: 45px;
+    font-size: 18px;
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    color: white;
     cursor: pointer;
 }
 
-.nav-h2{
-    color: azure;
-    display: flex;
-    gap: 60px;
-}
 
+.h3{
+    color:black;
+    font-size: 18px;
+    padding: 2px;
+    text-align: left;
+
+}
