@@ -20,26 +20,37 @@ body {
 }
 
 .navbar{
-   display: flex;
+   display: ;
    justify-content: space-between;
    align-items: center;
    background-color: blue;
-   padding: 15px 30px;
+   padding: 5px 15px;
 }
 
-.btn-outline{
-    font-size: 20px;
-    color: beige;
-    background-color: cyan;
-    width: 12px;
-    height: 4px;
+.search-box{
+    display: flex;
+    gap: 30px;
 }
 
-.d-flex{
-    font-size: 20px;
+.search-box input {
+    width: 750px;
+    padding: 12px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+}
+
+.search-box button{
+    
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.nav-h2{
     color: azure;
-    width: 8px;
-    height: 4px;
-   
+    display: flex;
+    gap: 60px;
 }
 
