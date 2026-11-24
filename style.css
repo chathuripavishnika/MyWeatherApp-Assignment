@@ -16,18 +16,28 @@ body {
 }
 
 .card-body{
-    background-color:darkblue ;
+    background-color:cornflowerblue ;
+}
+
+.navbar{
+    background-color: blue;
+   width: 15px;
+   height: 5px;
 }
 
 .btn-outline{
     font-size: 20px;
     color: beige;
     background-color: cyan;
+    width: 12px;
+    height: 4px;
 }
 
 .d-flex{
     font-size: 20px;
     color: azure;
+    width: 8px;
+    height: 4px;
    
 }
 
