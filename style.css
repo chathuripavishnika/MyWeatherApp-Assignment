@@ -64,7 +64,7 @@ h4{
 }
 
 .weather-card{
-    background-color: deepskyblue;
+    background-color: darkblue;
     border: 3px  solid whitesmoke;
     border-radius: 25px;
     padding: 35px;
@@ -73,7 +73,7 @@ h4{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+    box-shadow: 0 8px 20px white;
     
     
     
