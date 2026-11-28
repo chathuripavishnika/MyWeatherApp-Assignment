@@ -8,6 +8,7 @@
 </head>
 <body>
     <center>
+    <div class="container">
     <h1> 🌤️ Weather App 🌧️</h1>
     <h4>--------Check the Weather anyWhere!--------</h4>
     <br>
@@ -15,6 +16,25 @@
         <input type="text" id="CityInput" placeholder="🔍 Search Place...">
         <button onclick="SearchWeather()">Search</button>
     </div>
+    <br>
+    <br>
+
+     <div class="weather-card">
+
+            <div class="main-weather">
+                <div class="weather-icon" id="weatherIcon">🌤️</div>
+
+                <div>
+                    <h2 id="temperature">--°C</h2>
+                    <h3 id="condition">Search a City</h3>
+                    <p id="location">📍 Location</p>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+
     </center>
 
 <script src="app.js"></script>

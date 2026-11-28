@@ -22,28 +22,70 @@ h4{
     font-size: 25px;
 }
 
-.search-box{
-    display: flex;
-    gap: 15px;
-    margin-bottom: 35px;
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
-.search-box input {
+.Search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px auto;
+    width: 90%;
+}
+
+.Search-box input {
     flex: 1;
-    padding: 18px;
+    height: 55px;
+    padding: 15px 25px;
     border: none;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 20px;
     outline: none;
 }
 
-.search-box {
+.Search-box  button{
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
     background-color: dodgerblue;
-    color: azure;
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
     cursor: pointer;
 
+}
+
+.Search-box button:hover{
+    background-color: cornflowerblue;
+}
+
+.weather-card{
+    background-color: deepskyblue;
+    border: 3px  solid whitesmoke;
+    border-radius: 25px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
 }
