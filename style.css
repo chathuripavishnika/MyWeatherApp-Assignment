@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuCXHanIsn3Zz7unIAWqaBVJtDIsy6cKUUZXxjOSWEg&s=10");
     background-size: cover;
@@ -5,84 +12,38 @@ body {
     background-repeat: no-repeat;
 }
 
-.title{
-    font-size: 60px;
-    color: white;
-
+h1{
+    color: floralwhite;
+    font-size: 30px;
 }
-.tit{
-    font-size: 18px;
+
+h4{
     color: azure;
+    font-size: 25px;
 }
 
-.card-body{
-    background-color:cornflowerblue ;
+.search-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
 }
 
-.card{
-    
-    border: 2px solid black;
-     gap: 4px;
-  
+.search-box input {
+    flex: 1;
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
 }
-
 
 .search-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-   
-}
-
-.form-control {
-    width: 60%;
-    height: 45px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: azure;
     font-size: 18px;
-}
-
-.btn {
-    width: 80px;
-    height: 40px;
-    background-color: blue;
-    color: white;
     cursor: pointer;
-}
-
-
-.h3{
-    color:black;
-    font-size: 18px;
-    padding: 2px;
-    text-align: left;
 
 }
-
-.h2{
-    text-align: left;
-    color: blue;
-}
-
-.img{
-    text-align: left;
-}
-
-.h{
-    text-align: right;
-    font-size: 20px;
-    color: bisque;
-}
-
-.img{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    
-}
-
-.day{
-    font-size: 18px;
-    color: navy ;
-    text-align: left;
-}
-
