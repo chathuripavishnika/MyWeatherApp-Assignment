@@ -65,6 +65,7 @@ h4{
 
 .weather-card{
     background-color: darkblue;
+    color: azure;
     border: 3px  solid whitesmoke;
     border-radius: 25px;
     padding: 35px;
