@@ -13,12 +13,12 @@ body {
 }
 
 h1{
-    color: floralwhite;
-    font-size: 30px;
+    color: dodgerblue;
+    font-size: 40px;
 }
 
 h4{
-    color: azure;
+    color:dodgerblue;
     font-size: 25px;
 }
 
@@ -75,18 +75,122 @@ h4{
     flex-wrap: wrap;
     gap: 30px;
     box-shadow: 0 8px 20px white;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
+}
+
+.main-weather {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.weather-icon {
+    font-size: 90px;
+}
+
+#temperature {
+    font-size: 65px;
+    color: cyan;
+}
+
+#condition {
+    font-size: 25px;
+    color: aqua;
+}
+
+#location {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.weather-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.detail span {
+    font-size: 35px;
+}
+
+.detail p {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.detail h3 {
+    font-size: 21px;
+    color: bisque;
+}
+
+.heading {
+    margin: 35px 0 20px;
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+.weather-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.type-card {
+    background-color: midnightblue;
+    padding: 25px 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 12px white;
+    transition: 0.3s;
+}
+
+.type-card:hover {
+    transform: translateY(-5px);
+}
+
+.type-card span {
+    font-size: 45px;
+}
+
+.type-card p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: bisque;
+}
+
+#message {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .weather-card {
+        padding: 20px;
+    }
+
+    #temperature {
+        font-size: 45px;
+    }
+
+    .weather-icon {
+        font-size: 60px;
+    }
+
+    .weather-types {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
